@@ -1,0 +1,294 @@
+<!DOCTYPE html>
+<html lang="en">
+
+
+<!-- METADATA -->
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Rohan Krishnan</title>
+    <link rel="icon" href="../assets/images/favicon.ico">
+    <link rel="stylesheet" href="../assets/css/styles.css">
+    <link rel="stylesheet" href="../assets/css/mediaqueries.css">
+</head>
+
+
+<!-- BODY -->
+<body>
+
+
+    <!-- SECTION: DESKTOP NAVBAR -->
+    <nav id="desktop-nav">
+        <h1 class="logo"><a href="#profile">ROHAN KRISHNAN</a></h1>
+        <div>
+          <ul class="nav-links">
+            <li><a href="#about">About</a></li>
+            <li><a href="#experience">Experience</a></li>
+            <li><a href="#projects">Projects</a></li>
+            <li><a href="#contact">Contact</a></li>
+          </ul>
+        </div>
+    </nav>
+
+
+    <!-- SECTION: HAMBURGER NAV -->
+    <nav id="hamburger-nav">
+        <h1 class="logo"><a href="#profile">ROHAN KRISHNAN</a></h1>
+        <div class="hamburger-menu">
+          <div class="hamburger-icon" onclick="toggleMenu()">
+            <span></span>
+            <span></span>
+            <span></span>
+          </div>
+          <div class="menu-links">
+            <li><a href="#about" onclick="toggleMenu()">About</a></li>
+            <li><a href="#experience" onclick="toggleMenu()">Experience</a></li>
+            <li><a href="#projects" onclick="toggleMenu()">Projects</a></li>
+            <li><a href="#contact" onclick="toggleMenu()">Contact</a></li>
+          </div>
+        </div>
+    </nav>
+
+
+    <!-- SECTION: PROFILE -->
+    <section id="profile">
+
+        <div class="section__pic-container">
+          <img src="../assets/images/main-avatar-2.png" alt="Rohan profile picture" />
+        </div>
+
+        <div class="section__text">
+          <p class="section__text__p1">Hello, I'm</p>
+          <h1 class="title">Rohan Krishnan</h1>
+          <p class="section__text__p2">Data Analyst | Python & R Developer</p>
+
+          <div class="btn-container">
+            <button
+              class="btn btn-color-2"
+              onclick="window.open('../assets/images/rk_web_resume.pdf')"
+            >
+              Download Resume
+            </button>
+            <button class="btn btn-color-1" onclick="location.href='./#contact'">
+              Contact Info
+            </button>
+          </div>
+
+          <div id="socials-container">
+            <a href="https://www.linkedin.com/in/rohankrish/" target="_blank">
+                <img
+                src="../assets/images/in.svg"
+                alt="My LinkedIn profile"
+                class="icon"
+              />
+            </a>
+
+            <a href="https://github.com/r0hankrishnan" target="_blank">
+                <img
+                src="../assets/images/github.svg"
+                alt="My Github profile"
+                class="icon"
+              />
+            </a>
+
+            <a href="https://medium.com/@rohan.krishnan" target="_blank">
+                <img
+                src="../assets/images/medium.svg"
+                alt="My Medium profile"
+                class="icon"
+              />
+            </a>
+            <img
+            src="../assets/images/down-arrow.png"
+            alt="Arrow icon"
+            class="icon"
+            onclick="location.href='./#about'"
+            />
+          </div>
+        </div>
+    </section>
+
+    <!-- <div class="separator"></div> -->
+    <!-- SECTION: ABOUT ME -->
+    <section id="about">
+        <p class="section__text__p1">Get To Know More</p>
+        <h1 class="title">About Me</h1>
+        <div class="section-container">
+          <div class="about-details-container">
+            <div class="about-containers">
+              <div class="details-container">
+                <img
+                  src="../assets/images/education.svg"
+                  alt="Education icon"
+                  class="icon"
+                />
+                <h3>Education</h3>
+                <h6> Univerisity of Pittsburgh</h6>
+                <p>B.Sc. Economics | B.Sc. Business Information Systems</p>
+                <p>Minor: Applied Statistics | Certificate: Business Analytics</p>
+              </div>
+            </div>
+            <div class="text-container">
+              <p>
+                I'm a recent graduate with majors in Economics and BIS, a minor in Applied Statistics, and a certificate in Business Analytics. 
+                I'm also a huge tennis nerd 🎾 🤓 and self-learner with a passion using data and analytics to drive positive change! <br/> <br/>
+                
+                I have analytical, leadership, and communication skills and my goal is to leverage my education and experience to contribute to the advancement of sustainability 
+                and social justice in the business world.
+              </p>
+            </div>
+          </div>
+        </div>
+        <img
+          src="../assets/images/down-arrow.png"
+          alt="Arrow icon"
+          class="icon arrow"
+          onclick="location.href='./#experience'"
+        />
+      </section>
+
+
+      <!-- EXPERIENCE -->
+      <section id="experience">
+        <p class="section__text__p1">Explore My</p>
+        <h1 class="title">Experience</h1>
+        <div class="experience-details-container">
+          <div class="about-containers">
+            <div class="details-container">
+              <h2 class="experience-sub-title">Frontend Development</h2>
+              <div class="article-container">
+                <article>
+                  <img
+                    src="./assets/checkmark.png"
+                    alt="Experience icon"
+                    class="icon"
+                  />
+                  <div>
+                    <h3>HTML</h3>
+                    <p>Experienced</p>
+                  </div>
+                </article>
+                <article>
+                  <img
+                    src="./assets/checkmark.png"
+                    alt="Experience icon"
+                    class="icon"
+                  />
+                  <div>
+                    <h3>CSS</h3>
+                    <p>Experienced</p>
+                  </div>
+                </article>
+                <article>
+                  <img
+                    src="./assets/checkmark.png"
+                    alt="Experience icon"
+                    class="icon"
+                  />
+                  <div>
+                    <h3>SASS</h3>
+                    <p>Intermediate</p>
+                  </div>
+                </article>
+                <article>
+                  <img
+                    src="./assets/checkmark.png"
+                    alt="Experience icon"
+                    class="icon"
+                  />
+                  <div>
+                    <h3>JavaScript</h3>
+                    <p>Basic</p>
+                  </div>
+                </article>
+                <article>
+                  <img
+                    src="./assets/checkmark.png"
+                    alt="Experience icon"
+                    class="icon"
+                  />
+                  <div>
+                    <h3>TypeScript</h3>
+                    <p>Basic</p>
+                  </div>
+                </article>
+                <article>
+                  <img
+                    src="./assets/checkmark.png"
+                    alt="Experience icon"
+                    class="icon"
+                  />
+                  <div>
+                    <h3>Material UI</h3>
+                    <p>Intermediate</p>
+                  </div>
+                </article>
+              </div>
+            </div>
+            <div class="details-container">
+              <h2 class="experience-sub-title">Frontend Development</h2>
+              <div class="article-container">
+                <article>
+                  <img
+                    src="./assets/checkmark.png"
+                    alt="Experience icon"
+                    class="icon"
+                  />
+                  <div>
+                    <h3>PostgreSQL</h3>
+                    <p>Basic</p>
+                  </div>
+                </article>
+                <article>
+                  <img
+                    src="./assets/checkmark.png"
+                    alt="Experience icon"
+                    class="icon"
+                  />
+                  <div>
+                    <h3>Node JS</h3>
+                    <p>Intermediate</p>
+                  </div>
+                </article>
+                <article>
+                  <img
+                    src="./assets/checkmark.png"
+                    alt="Experience icon"
+                    class="icon"
+                  />
+                  <div>
+                    <h3>Express JS</h3>
+                    <p>Intermediate</p>
+                  </div>
+                </article>
+                <article>
+                  <img
+                    src="./assets/checkmark.png"
+                    alt="Experience icon"
+                    class="icon"
+                  />
+                  <div>
+                    <h3>Git</h3>
+                    <p>Intermediate</p>
+                  </div>
+                </article>
+              </div>
+            </div>
+          </div>
+        </div>
+        <img
+          src="../assets/images/down-arrow.png"
+          alt="Arrow icon"
+          class="icon arrow"
+          onclick="location.href='./#projects'"
+        />
+      </section>
+
+
+
+    <!-- SECTION: SCRIPTS -->
+    <script src="../assets/js/script.js"></script>
+
+
+</body>
+</html>
