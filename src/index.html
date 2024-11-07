@@ -23,7 +23,7 @@
         <div>
           <ul class="nav-links">
             <li><a href="#about">About</a></li>
-            <li><a href="#experience">Experience</a></li>
+            <li><a href="#skills">Skills</a></li>
             <li><a href="#projects">Projects</a></li>
             <li><a href="#contact">Contact</a></li>
           </ul>
@@ -42,7 +42,7 @@
           </div>
           <div class="menu-links">
             <li><a href="#about" onclick="toggleMenu()">About</a></li>
-            <li><a href="#experience" onclick="toggleMenu()">Experience</a></li>
+            <li><a href="#skills" onclick="toggleMenu()">Skills</a></li>
             <li><a href="#projects" onclick="toggleMenu()">Projects</a></li>
             <li><a href="#contact" onclick="toggleMenu()">Contact</a></li>
           </div>
@@ -108,10 +108,11 @@
         </div>
     </section>
 
+
     <!-- <div class="separator"></div> -->
     <!-- SECTION: ABOUT ME -->
     <section id="about">
-        <p class="section__text__p1">Get To Know More</p>
+        <p class="section__text__p1"><br/><br/>Get To Know More</p>
         <h1 class="title">About Me</h1>
         <div class="section-container">
           <div class="about-details-container">
@@ -122,7 +123,7 @@
                   alt="Education icon"
                   class="icon"
                 />
-                <h3>Education</h3>
+                <h3>Education</h3> <br/>
                 <h6> Univerisity of Pittsburgh</h6>
                 <p>B.Sc. Economics | B.Sc. Business Information Systems</p>
                 <p>Minor: Applied Statistics | Certificate: Business Analytics</p>
@@ -143,20 +144,24 @@
           src="../assets/images/down-arrow.png"
           alt="Arrow icon"
           class="icon arrow"
-          onclick="location.href='./#experience'"
+          onclick="location.href='./#skills'"
         />
-      </section>
+    </section>
 
 
-      <!-- EXPERIENCE -->
-      <section id="experience">
+    <!-- EXPERIENCE -->
+    <section id="skills">
         <p class="section__text__p1">Explore My</p>
-        <h1 class="title">Experience</h1>
+        <h1 class="title">Skills</h1>
         <div class="experience-details-container">
           <div class="about-containers">
             <div class="details-container">
-              <h2 class="experience-sub-title">Frontend Development</h2>
-              <div class="article-container">
+              <h2 class="experience-sub-title">Data-Centric</h2>
+              <p>Through schoolwork, personal and service projects, and professional experience as both a 
+                freelancer and as an intern, I've developed actionable skills with many web tools, technologies, and concepts.</p>
+              <!-- <div class="article-container">
+                <p>Through schoolwork, personal and service projects, and professional experience as both a 
+                    freelancer and as an intern, I've developed actionable skills with many web tools, technologies, and concepts.</p>
                 <article>
                   <img
                     src="./assets/checkmark.png"
@@ -223,55 +228,79 @@
                     <p>Intermediate</p>
                   </div>
                 </article>
-              </div>
+              </div> -->
             </div>
+
+
             <div class="details-container">
               <h2 class="experience-sub-title">Frontend Development</h2>
               <div class="article-container">
                 <article>
                   <img
-                    src="./assets/checkmark.png"
-                    alt="Experience icon"
+                    src="../assets/images/python.png"
+                    alt="Python icon"
                     class="icon"
                   />
                   <div>
-                    <h3>PostgreSQL</h3>
-                    <p>Basic</p>
+                    <h3>Python</h3>
+                    <p>Experienced </p><br/>
                   </div>
                 </article>
                 <article>
                   <img
-                    src="./assets/checkmark.png"
-                    alt="Experience icon"
+                    src="../assets/images/r.png"
+                    alt="R icon"
                     class="icon"
                   />
                   <div>
-                    <h3>Node JS</h3>
-                    <p>Intermediate</p>
+                    <h3>R</h3>
+                    <p>Experienced</p><br/>
                   </div>
                 </article>
                 <article>
                   <img
-                    src="./assets/checkmark.png"
-                    alt="Experience icon"
+                    src="../assets/images/excel.png"
+                    alt="Excel icon"
                     class="icon"
                   />
                   <div>
-                    <h3>Express JS</h3>
-                    <p>Intermediate</p>
+                    <h3>Excel</h3>
+                    <p>Experienced</p><br/>
                   </div>
                 </article>
                 <article>
                   <img
-                    src="./assets/checkmark.png"
-                    alt="Experience icon"
+                    src="../assets/images/sql.png"
+                    alt="SQL icon"
                     class="icon"
                   />
                   <div>
-                    <h3>Git</h3>
-                    <p>Intermediate</p>
+                    <h3>SQL</h3>
+                    <p>Intermediate</p><br/>
                   </div>
                 </article>
+                <article>
+                    <img
+                      src="../assets/images/tableau.png"
+                      alt="Tableau icon"
+                      class="icon"
+                    />
+                    <div>
+                      <h3>Tableau</h3>
+                      <p>Intermediate</p><br/>
+                    </div>
+                  </article>
+                  <article>
+                    <img
+                      src="../assets/images/git.png"
+                      alt="Git icon"
+                      class="icon"
+                    />
+                    <div>
+                      <h3>Git</h3>
+                      <p>Intermediate</p><br/>
+                    </div>
+                  </article>
               </div>
             </div>
           </div>
@@ -282,13 +311,114 @@
           class="icon arrow"
           onclick="location.href='./#projects'"
         />
-      </section>
+    </section>
 
 
+    <!-- SECTION: PROJECTS -->
+    <section id="projects">
+        <p class="section__text__p1">Browse My Recent</p>
+        <h1 class="title">Projects</h1>
+        <div class="experience-details-container">
+          <div class="about-containers">
+            <div class="details-container color-container">
+              <div class="article-container">
+                <img
+                  src="../assets/images/retail.png"
+                  alt="Project 1"
+                  class="project-img"
+                />
+              </div>
+              <h2 class="experience-sub-title project-title">Retail Clustering Analysis</h2>
+              <div class="btn-container">
+                <button
+                  class="btn btn-color-2 project-btn"
+                  onclick="location.href='https://github.com/r0hankrishnan/retail_analysis'"
+                >
+                  Github
+                </button>
+              </div>
+            </div>
+            <div class="details-container color-container">
+              <div class="article-container">
+                <img
+                  src="../assets/images/housing.png"
+                  alt="Project 2"
+                  class="project-img"
+                />
+              </div>
+              <h2 class="experience-sub-title project-title">US Housing Analysis</h2>
+              <div class="btn-container">
+                <button
+                  class="btn btn-color-2 project-btn"
+                  onclick="location.href='https://github.com/r0hankrishnan/us_housing'"
+                >
+                  Github
+                </button>
+              </div>
+            </div>
+            <div class="details-container color-container">
+              <div class="article-container">
+                <img
+                  src="../assets/images/car.png"
+                  alt="Project 3"
+                  class="project-img"
+                />
+              </div>
+              <h2 class="experience-sub-title project-title">CarMax Analytics Dashboard</h2>
+              <div class="btn-container">
+                <button
+                  class="btn btn-color-2 project-btn"
+                  onclick="location.href='https://github.com/r0hankrishnan/carmax'"
+                >
+                  Github
+                </button>
+              </div>
+            </div>
+          </div>
+        </div>
+        <img
+          src="../assets/images/down-arrow.png"
+          alt="Arrow icon"
+          class="icon arrow"
+          onclick="location.href='./#contact'"
+        />
+    </section>
 
+
+    <!-- CONTACT -->
+    <section id="contact">
+        <p class="section__text__p1">Get in Touch</p>
+        <h1 class="title">Contact Me</h1>
+        <div class="contact-info-upper-container">
+          <div class="contact-info-container">
+            <a href="mailto:examplemail@gmail.com">
+                <img
+                src="../assets/images/email.svg"
+                alt="Email icon"
+                class="icon"
+              />
+            </a>
+          </div>
+          <div class="contact-info-container">
+            <a href="https://www.linkedin.com/in/rohankrish/" target="_blank">  
+                <img
+                src="../assets/images/in.svg"
+                alt="LinkedIn icon"
+                class="icon"
+              />
+            </a>
+          </div>
+        </div>
+    </section>
+
+
+    <!-- FOOTER -->
+    <footer>
+        <p>Copyright &#169; 2024 Rohan Krishnan. All Rights Reserved.</p>
+    </footer>
+
+    
     <!-- SECTION: SCRIPTS -->
     <script src="../assets/js/script.js"></script>
-
-
 </body>
 </html>
