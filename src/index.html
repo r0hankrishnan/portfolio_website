@@ -33,7 +33,24 @@
 
 
     <!-- SECTION: HAMBURGER NAV -->
+
     <nav id="hamburger-nav">
+      <h1 class="logo">ROHAN KRISHNAN </h1>
+      <div class="hamburger-menu">
+        <button class="hamburger-icon" onclick="toggleMenu" aria-label="Open Menu" aria-pressed="false">
+          <span></span>
+          <span></span>
+          <span></span>
+        </button>
+      </div>
+      <div class="menu-links">
+        <li><a href="#about" onclick="toggleMenu()">About</a></li>
+        <li><a href="#skills" onclick="toggleMenu()">Skills</a></li>
+        <li><a href="#projects" onclick="toggleMenu()">Projects</a></li>
+        <li><a href="#contact" onclick="toggleMenu()">Contact</a></li>
+      </div>
+    </nav>
+    <!-- <nav id="hamburger-nav">
         <h1 class="logo"><a href="#profile">ROHAN KRISHNAN</a></h1>
         <div class="hamburger-menu">
           <div class="hamburger-icon" onclick="toggleMenu()">
@@ -48,7 +65,7 @@
             <li><a href="#contact" onclick="toggleMenu()">Contact</a></li>
           </div>
         </div>
-    </nav>
+    </nav> -->
 
 
     <!-- SECTION: PROFILE -->
@@ -70,6 +87,9 @@
             >
               Download Resume
             </button>
+            <a class="btn btn-color-1" href="#contact">
+              Contact Infoasdfsafas
+            </a>
             <button class="btn btn-color-1" onclick="location.href='./#contact'">
               Contact Info
             </button>
